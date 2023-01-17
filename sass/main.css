@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+*, ::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 35rem;
+  grid-template-rows: 30rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  background: linear-gradient(20deg, hsl(213deg, 19%, 18%), hsla(216deg, 12%, 54%, 0.13));
+  border-radius: 3rem;
+}
+
+.card {
+  flex-direction: column;
+  color: hsl(0deg, 0%, 100%);
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.card .card-list-no {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+}
+.card .card-list-no li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(216deg, 12%, 54%, 0.13);
+  padding: 0.5rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100rem;
+}
+.card .card-list-no li:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+
+.card_icone-one {
+  background-color: hsla(216deg, 12%, 54%, 0.13);
+  display: flex;
+  justify-content: start;
+  border-radius: 100rem;
+  width: 3.5rem;
+  padding: 1rem;
+}
+
+.card_text-field h1 {
+  font-weight: 700;
+  line-height: 5rem;
+}
+.card_text-field p {
+  text-align: start;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  padding: 0.5rem 10rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+}
+
+.card_two {
+  display: none;
+  flex-direction: column;
+  color: hsl(0deg, 0%, 100%);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.card_icone-one {
+  background-color: hsla(216deg, 12%, 54%, 0.13);
+  display: flex;
+  justify-content: start;
+  border-radius: 100rem;
+  width: 3.5rem;
+  padding: 1rem;
+}
+
+.card_two_text-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_two_text-field h1 {
+  font-weight: 700;
+  line-height: 5rem;
+}
+.card_two_text-field .para_two {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.input_field {
+  background-color: hsla(216deg, 12%, 54%, 0.13);
+  color: hsl(25deg, 97%, 53%);
+  border-radius: 5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+}
+
+.material-symbols-outlined {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 50rem;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
